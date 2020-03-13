@@ -4,6 +4,23 @@ Version- 3.8
 author - design_mylife
 support - mylifedesign143@gmail.com
 */
+
+/*
+----------------------------------------
+Personalized code
+Author : Calvery
+----------------------------------------
+*/
+
+#navbar {
+  background-color: #fbf9fc
+}
+
+/*
+End of Personalized code
+Author : Calvery
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Open+Sans:300,300i,400,400i,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,400i");
 @font-face {
