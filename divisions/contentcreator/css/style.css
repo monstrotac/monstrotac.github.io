@@ -4,23 +4,6 @@ Version- 3.8
 author - design_mylife
 support - mylifedesign143@gmail.com
 */
-
-/*
-----------------------------------------
-Personalized code
-Author : Calvery
-----------------------------------------
-*/
-
-#navbar {
-  background-color: #fbf9fc
-}
-
-/*
-End of Personalized code
-Author : Calvery
-*/
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Open+Sans:300,300i,400,400i,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,400i");
 @font-face {
@@ -53,7 +36,8 @@ html, body, html.footer-sticky, .footer-sticky body {
   height: 100%; }
 
 body {
-  color: #777;
+  color: rgb(204, 204, 204);
+  background: rgb(10, 10, 10);
   font-weight: 400;
   letter-spacing: 0em;
   font-family: "Open Sans", sans-serif;
@@ -73,12 +57,12 @@ a, .simple-hover img, button, .btn {
   -webkit-transition: all 0.3s; }
 
 a {
-  color: #4782d3;
+  color: #c296db;
   text-decoration: none; }
   a:hover, a:focus {
     text-decoration: none;
     outline: 0 !important;
-    color: #666; }
+    color: rgb(153, 55, 199); }
 
 /**typography**/
 h1,
@@ -94,7 +78,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Montserrat", sans-serif;
-  color: #252525;
+  color: #ffffff;
   font-weight: 700;
   font-variant-ligatures: common-ligatures;
   margin-top: 0;
