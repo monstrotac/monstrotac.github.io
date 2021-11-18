@@ -16,6 +16,17 @@ Basic of template
 html, body, .fullScreen {
   height: 100%; }
 
+.text-black{
+  color: #000!important;
+}
+
+#bg_home {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("images/background.jpg");
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
 body {
   font-size: 15px;
   font-weight: 400;

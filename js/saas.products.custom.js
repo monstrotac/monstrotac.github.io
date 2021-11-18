@@ -119,11 +119,5 @@ $(function () {
             $(".navbar-sticky").removeClass("fixed-top");
         }
     });
-    $('.tweets-container').twittie({
-        apiPath: './tweetie/tweet.php',
-        dateFormat: '%b. %d, %Y',
-        template: '{{tweet}} <div class="date">{{date}}</div> <a href="{{url}}"{{screen_name}}',
-        count: 2
-    });
 
 });

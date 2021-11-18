@@ -57,7 +57,7 @@ $(function () {
 
     //typed text
      $(".typed").typed({
-        strings: ["Mark Adison", "UI/UX Developer", "Available for hire"],
+        strings: ["Calvery", "Simon-Olivier Lachance", "Developer", "Future Project Manager", "Video Game Enthusiast", "AI Enthusiast", "Ex Semi-professional Gamer", "Computer Science Student"],
         typeSpeed: 50,
         backSpeed: 10,
         backDelay: 2000,

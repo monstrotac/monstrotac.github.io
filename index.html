@@ -5,11 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Calvery's website - Under construction</title>
+    <title>Calvery.ca - Simon-Olivier Lachance-Gagné</title>
     <!-- Plugins CSS -->
     <link href="css/plugins/plugins.css" rel="stylesheet">
     <link href="linearicons/fonts.css" rel="stylesheet">
     <link href="css/style-saas-landing.css" rel="stylesheet">
+
 </head>
 
 <body data-spy="scroll" data-target="#landingkit-navbar" data-offset="75">
@@ -18,22 +19,20 @@
     </div>
     <!--/preloader-->
 
-    <div id="home" class="fullScreen-particles bg-primary-dark">
+    <div id="home" class="fullScreen-particles bg-primary-dark" style="background-color: black !important;">
         <div class="content-table">
             <div class="content-middle">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8 text-center mr-auto ml-auto">
-                            <h3 class="mb20 h1 font300 pt100 text-white">Calvery.ca is currently under developement.
+                            <h3 class="mb20 h1 font300 pt100 text-white">Welcome to my Website!
                             </h3>
                             <p class="mb30 lead text-white-gray">
-                                <span class="font400">We are looking forward to welcome you, but unfortunately can't
-                                    quite yet! Woopsie!</span>
+                                <span class="font400">Calvery.ca is a website I own that allows me to share my achievements with the world. I aim to share the result of my creations on here whenever it is possible for me to do so!</span>
                             </p>
                             <div>
-                                <a href="https://www.youtube.com/watch?v=r9rEiyuZarw"
-                                    class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Watch
-                                    the latest youtube video</a>
+                                <a href="divisions/professional/index.html"
+                                    class="btn btn-white-outline my-3">Bring me to the website.</a>
                             </div>
                         </div>
                     </div>
@@ -43,53 +42,30 @@
     </div>
     <!--hero-->
 
-    <footer class="footer">
+    <footer class="footer" style="background-color: #fbf9fc !important;">
         <div class="container">
             <div class="row align-items-end">
                 <div class="col-lg-12 text-center">
                     <div class="row">
-                        <div class="col-lg-4 mb20">
-                            <h5 class=" mb20">Twitch</h5>
-                            <a href="https://www.youtube.com/channel/UCGss3Jcjhc5RKhnLgpbLcmA"
-                                class="btn btn-primary">To my Twitch channel</a>
-                        </div>
-                        <div class="col-lg-4 mb20">
-                            <h5 class=" mb20">Contact</h5>
-                            <a href="mailto:mailto:bobcalvery@gmail.com">
-                                <p class="btn btn-primary">bobcalvery@gmail.com</p>
+                        <div class="col-lg-12 mb20">
+                            <h5 class=" mb20">Contact me</h5>
+                            <a href="mailto:simonolivierlachance@hotmail.com">
+                                <p class="btn btn-primary" style="background-color: black;">Via Email</p>
+                                <a target="_blank" href="https://twitter.com/BobCalvery">
+                                <p class="btn btn-primary" style="background-color: black;">Via Twitter</p>
                             </a>
-                        </div>
-                        <div class="col-lg-4 mb20">
-                            <h5 class=" mb20">Youtube</h5>
-                            <a href="https://www.youtube.com/channel/UCGss3Jcjhc5RKhnLgpbLcmA"
-                                class="btn btn-primary">To my youtube channel</a>
                         </div>
                     </div>
                     <hr class="mb20">
-                    <div class="social-buttons">
-                        <span>
-                            <a href="https://www.facebook.com/bobcalverytwitch/"
-                                class="social-icon si-dark si-facebook si-dark-round">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a href="https://twitter.com/BobCalvery"
-                                class="social-icon si-dark si-twitter si-dark-round">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </span>
-                    </div>
                     <ul class="list-inline pb20 col-lg-12">
                         <li class="list-inline-item">
-                            <a href="#">About me</a>
+                            <a href="divisions/professional/index.html" style="color: #7500ba;">Home</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">News</a>
+                            <a href="divisions/professional/portfolio.html" style="color: #7500ba;">Portfolio</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Terms & conditions</a>
-                        </li>
-                        <li class="list-inline-item">
-                            Property of Mr. Simon-Olivier "BobCalvery" Lachance &copy; Copyright 2020-2020.
+                            Property of Simon-Olivier "Calvery" Lachance-Gagné &copy; Copyright 2020-<span id="currentYear">year</span>
                         </li>
                     </ul>
                 </div>
@@ -101,16 +77,20 @@
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script type="text/javascript" src="js/plugins/plugins.js"></script>
     <!--tweet-scroller-->
-    <script src="tweetie/tweetie.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/saas.products.custom.js"></script>
     <script src="js/jquery.particleground.min.js"></script>
     <script src="https://kit.fontawesome.com/4b6391a0a7.js" crossorigin="anonymous"></script>
     <script>
+        
         //particle
         $('#home').particleground({
-            dotColor: '#65749f',
-            lineColor: '#65749f'
+            dotColor: '#b7b7b7',
+            lineColor: '#7500ba'
         });
+    </script>
+    <script>
+        var year = new Date().getFullYear();
+        document.getElementById("currentYear").innerHTML = year;
     </script>
 </body>
 

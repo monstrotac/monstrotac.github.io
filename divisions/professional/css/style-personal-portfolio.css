@@ -23,17 +23,23 @@ support - mylifedesign143@gmail.com
 /*
 Basic of template
 */
+
+.bg-greyish{
+  background-color: #262626;
+  color: #fbf9fc;
+}
 html, body {
   height: 100%; }
 
 body {
-  color: #666666;
+  color: #000000;
   font-weight: 300;
   letter-spacing: 0em;
   font-family: "Montserrat", sans-serif;
   font-size: 0.9em;
   line-height: 1.85714286em;
   -webkit-font-smoothing: antialiased;
+  color: #fbf9fc;
   -moz-osx-font-smoothing: grayscale; }
 
 button, input, optgroup, select, textarea {
@@ -1089,7 +1095,7 @@ Fullscreen hero
 
 @media (min-width: 992px) {
   .fullscreen-hero .hero-content:before {
-    background-color: rgba(52, 131, 222, 0.9);
+    background-color: rgba(117, 0, 186, 0.9);
     position: absolute;
     width: 50%;
     height: 100%;
